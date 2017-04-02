@@ -27,6 +27,7 @@ INCLUDES = $(INCLUDES) -I$(ICONV_DIR)/include
 
 !ifdef DEBUG
 DEFINES = $(DEFINES) -DDEBUG
+OPT = /Od
 OPT = $(OPT) /Zi
 !endif
 

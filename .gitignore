@@ -67,3 +67,10 @@ win32/[Dd]ebug/
 win32/[Rr]elease/
 _build
 man/ctags.1.rst
+# ignore Vim swap files
+**/.*.sw[op]
+# ignore Microsoft build and studio files
+*.sln
+*.pdb
+*.suo
+*.ilk
